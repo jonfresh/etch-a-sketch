@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen+Mono&display=swap');
+
+body {
+  margin: 0px;
+  display: grid;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.controlBox {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+h1 {
+  font-family: 'Oxygen Mono', sans-serif;
+  color: rgb(rgb(0, 0, 0));
+  font-weight: 800;
+  line-height: 1.3;
+  font-size: 2vw;
+}
+
+.colorSwatch {
+  height: 50px;
+  width: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.button {
+  display: block;
+}
+
+.regularBtn {
+  background-color: #fff;
+}
+
+.colorBtn {
+}
+
+.eraserBtn {
+}
+
+.clearBtn {
+}
+
+.selectedBtn {
+  background-color: rgb(63, 197, 61);
+}
+
+.ludicrousBtn {
+  display: block;
+}
+
+.sizeSlider {
+  width: 100%;
+  font-family: 'Oxygen Mono', sans-serif;
+
+}
+
+.gridBox {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+}
+
+#gridContainer {
+    display: grid;
+    grid-gap: 0em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    aspect-ratio: 1 / 1;
+    border: 4px solid #000;
+  }
+
+.gridItem {
+    padding: 0em;
+    border: none;
+    text-align: center;
+  }
+
+.hover {
+  background-color: black;
+}
+
