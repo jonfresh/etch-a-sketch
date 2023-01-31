@@ -27,13 +27,7 @@ h1 {
   font-size: 2vw;
 }
 
-.colorSwatch {
-  height: 50px;
-  width: 50px;
-  background-color: #000;
-  border-radius: 50%;
-  display: inline-block;
-}
+
 
 .button {
   display: block;
@@ -43,27 +37,23 @@ h1 {
   background-color: #fff;
 }
 
-.colorBtn {
+#eraserBtn {
 }
 
-.eraserBtn {
-}
-
-.clearBtn {
+#clearBtn {
 }
 
 .selectedBtn {
   background-color: rgb(63, 197, 61);
 }
 
-.ludicrousBtn {
+#ludicrousBtn {
   display: block;
 }
 
 .sizeSlider {
   width: 100%;
   font-family: 'Oxygen Mono', sans-serif;
-
 }
 
 .gridBox {
