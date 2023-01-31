@@ -27,8 +27,6 @@ h1 {
   font-size: 2vw;
 }
 
-
-
 .button {
   display: block;
 }
@@ -75,8 +73,3 @@ h1 {
     border: none;
     text-align: center;
   }
-
-.hover {
-  background-color: black;
-}
-
